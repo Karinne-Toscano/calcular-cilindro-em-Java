@@ -48,9 +48,6 @@ public class CalcularAreaCilindro {
       System.out.print("Digite a altura do cilindro: ");
       double altura = scanner.nextDouble();
 
-      //System.out.print("Digite a área a ser pintada: ");
-      //double area = scanner.nextDouble();
-
       Cilindro cilindro = new Cilindro(raio, altura);
       
       double area_total = cilindro.calcularAreaTotal();
